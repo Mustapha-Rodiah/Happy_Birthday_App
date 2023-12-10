@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Greetings(stringResource(id = R.string.celebrant), stringResource(id = R.string.sender),
                     painterResource(
-                        id = R.drawable.birthday_image), stringResource(id = R.string.app_name)
+                        id = R.drawable.birthday_image), stringResource(id = R.string.content)
                 )
             }
         }
